@@ -36,3 +36,24 @@ const observer = new IntersectionObserver((entries) => {
 fadeInElements.forEach(element => {
   observer.observe(element);
 });
+
+document.getElementById("cadastro-form").addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  const nome = document.getElementById("primeironome").value;
+  const senha = document.getElementById("senha").value;
+  const confirmarSenha = document.getElementById("confirmar-senha").value;
+
+  // Validação da senha
+  if (senha !== confirmarSenha) {
+    alert("As senhas não coincidem. Por favor, verifique.");
+    return; // Impede o envio
+  }
+
+  // Se passou na validação
+  document.getElementById("form-container").style.display = "none";
+
+  const welcome = document.getElementById("welcome-message");
+  welcome.innerHTML = `Olá, ${nome} ! Bem-vindo(a)!`;
+  welcome.style.display = "block";
+});

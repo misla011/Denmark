@@ -259,3 +259,109 @@
 .fade-in.visible {
   opacity: 1;
 }
+
+/*Estilizando Formulario*/
+
+.container{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:5px 5px 10px rgba(0,0,0,0.212);
+}
+
+.form-image img {
+  width: 100%;
+  max-width: 600px;
+}
+
+.form-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdf3f3;
+  padding: 2rem;
+}
+
+.form {
+  width: 50%;
+  background-color: white;
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-header .title h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box label {
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.input-box input {
+  padding: 0.7rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input-box input:focus {
+  border-color: #5a3b3b;
+}
+
+.gender-input {
+  margin-top: 1rem;
+}
+
+.gender-title h6 {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.gender-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.continue-button {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.continue-button button {
+  color: white;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.continue-button button:hover {
+  background-color: #555;
+}
