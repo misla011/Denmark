@@ -91,6 +91,17 @@
     margin-bottom: 10px;
   }
   
+  .benefit img {
+    width: 100px;
+    padding: 10px 20px;
+    background-color: #e9e3e3;
+    transition: transform 0.2s ease-in-out;  
+  }
+  
+  .benefit img:hover {
+    transform: scale(1.1); 
+  }
+
   /* Featured */
   .featured {
     text-align: center;
@@ -238,4 +249,13 @@
 .card-hover {
   background-color: #bdbabae1; 
   transition: background-color 0.3s ease; 
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
 }
