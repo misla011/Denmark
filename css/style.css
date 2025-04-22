@@ -225,3 +225,8 @@
   padding: 10px 20px;
   background-color: #e9e3e3;
 }
+
+.card-hover {
+  background-color: #bdbabae1; 
+  transition: background-color 0.3s ease; 
+}
