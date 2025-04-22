@@ -42,6 +42,15 @@
     font-size: 14px;
   }
   
+  .nav-links a:hover {
+    color: #b48a00; 
+    background-color: #333; 
+    padding-bottom: 5px; 
+    font-weight: bold; 
+    transition: color 0.3s ease, background-color 0.3s ease; 
+  }
+
+
   /* Hero */
   .hero {
     display: flex;
