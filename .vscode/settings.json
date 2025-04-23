@@ -1,4 +1,5 @@
 {
+    // Use this file to override default settings for your workspace
     "liveServer.settings.port": 5501
-    
+
 }
