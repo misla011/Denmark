@@ -119,6 +119,7 @@
     background-color: #e9e3e3;
     padding: 40px 20px;
     text-align: center;
+   
   }
   
   .cards {
@@ -126,6 +127,9 @@
     justify-content: center;
     gap: 30px;
     margin-top: 30px;
+   align-items: center;
+  
+   
   }
   
   .card {
@@ -142,6 +146,7 @@
     border-radius: 10px;
     background-size: cover;
     background-position: center;
+    
   }
   
   .suit {
@@ -157,6 +162,9 @@
     color: #b48a00;
     margin: 5px 0;
   }
+  .RAY{
+    background-image: url(../img/oculos.webp);
+}
   
   /* Footer */
   footer {

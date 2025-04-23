@@ -17,7 +17,7 @@
         <img src="img/copenhague.png" alt="logo do site" /> DENMARK
       </h1>
       <nav class="nav-links">
-        <a href="#hero">Início</a> <a href="#benefits">Benefícios</a>
+        <a href="#home">Início</a> <a href="#benefits">Benefícios</a>
         <a href="#featured">Destaques</a>
         <a href="#top-picks">Favoritos</a>
         <a href="#contact">Contato</a>
@@ -27,18 +27,23 @@
 
   <!-- Seção Hero -->
   <section class="hero" id="home">
-    <div class="hero-image"></div>
+    <div class="hero-content">
+      <h1>ELEGÂNCIA ESCANDINAVA</h1>
+      <h2>COLEÇÃO OUTONO/INVERNO 2023</h2>
+      <a href="#top-picks" class="btn">VER NOVIDADES</a>
+      <p class="sale-date">Promoção válida até 30/11/2023</p>
+    </div>
   </section>
 
   <!-- Benefícios -->
   <section class="benefits" id="benefits">
     <div class="benefit">
-      <img src="img/caminhao.png" alt="carrinho" />
+      <img src="img/caminhao.png" alt="frete" />
       <h3>FRETE GRÁTIS</h3>
       <p>Para compras acima de R$ 250,00 em pedidos online.</p>
     </div>
     <div class="benefit">
-      <img src="img/etiqueta-de-preco.png" alt="entiqueta preço" />
+      <img src="img/etiqueta-de-preco.png" alt="preço" />
       <h3>GARANTIA DE PREÇO</h3>
       <p>Mostre uma oferta de concorrente qualificada e igualamos o preço!</p>
     </div>
@@ -61,7 +66,7 @@
   </section>
 
   <!-- Favoritos dos Clientes -->
-  <section class="top-picks" class="fade-in" id="top-picks">
+  <section class="top-picks fade-in" id="top-picks">
     <h2>FAVORITOS DOS CLIENTES:</h2>
     <div class="cards">
       <div class="card">
@@ -86,130 +91,54 @@
         <small>- Ana Souza, Rio de Janeiro</small>
         <button>Ver Relógios</button>
       </div>
+      <div class="card">
+        <div class="card-img RAY"></div>
+        <h3>ÓCULOS DE SOL RAYBAN MASCULINO</h3>
+        <div class="stars">★★★★★</div>
+        <p>
+          "Uso e recomendo, sempre prefiro o custo beneficio que ele oferece, muito bonito e o material é ótimo!"
+        </p>
+        <small>- Marilande Almeida, Piracicaba</small>
+        <button>Ver Óculos</button>
+      </div>
     </div>
   </section>
 
-  <!--Formulário-->
-  <div class="container" id="form-container">
-    <div class="form-image">
-      <img src="img/Formulário.png" alt="Formulário">
-    </div>
-
-    <div class="form">
-      <form id="cadastro-form" action="#">
-        <div class="form-header">
-          <div class="title">
-            <h3>Cadastre-se</h3>
-          </div>
-        </div>
-
-        <div class="input-group">
-          <div class="input-box">
-            <label for="primeironome">Primeiro nome</label>
-            <input id="primeironome" type="text" name="primeironome" placeholder="Digite seu primeiro nome" required>
-          </div>
-
-          <div class="input-box">
-            <label for="sobrenome">Sobrenome</label>
-            <input id="sobrenome" type="text" name="sobrenome" placeholder="Digite seu sobrenome" required>
-          </div>
-
-          <div class="input-box">
-            <label for="email">E-mail</label>
-            <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
-          </div>
-
-          <div class="input-box">
-            <label for="telefone">Celular</label>
-            <input id="telefone" type="tel" name="telefone" placeholder="(xx) xxxx xxxx" required>
-          </div>
-
-          <div class="input-box">
-            <label for="senha">Senha</label>
-            <input id="senha" type="password" name="senha" placeholder="Digite sua senha" required>
-          </div>
-
-          <div class="input-box">
-            <label for="confirmar-senha">Confirmar sua senha</label>
-            <input id="confirmar-senha" type="password" name="confirmar-senha" placeholder="Digite sua senha novamente" required>
-          </div>
-
-          <div class="gender-input">
-            <div class="gender-title">
-              <h6>Gênero</h6>
-            </div>
-
-            <div class="gender-group">
-              <input type="radio" id="female" name="gender">
-              <label for="female">Feminino</label>
-            </div>
-
-            <div class="gender-group">
-              <input type="radio" id="male" name="gender">
-              <label for="male">Masculino</label>
-            </div>
-
-            <div class="gender-group">
-              <input type="radio" id="outros" name="gender">
-              <label for="outros">Outros</label>
-            </div>
-
-            <div class="gender-group">
-              <input type="radio" id="none" name="gender">
-              <label for="none">Prefiro não dizer</label>
-            </div>
-          </div>
-        </div>
-
-        <div class="continue-button">
-          <button type="submit">Continuar</button>
-        </div>
-      </form>
-    </div>
-  </div>
-
-  <div id="welcome-message" style="display: none; text-align: center; font-size: 1.8rem; padding: 3rem; color: #333;">
-  </div>
-
   <!-- Rodapé -->
-  <footer>
+  <footer id="contact">
     <div class="footer-grid">
-      <div class="social">
-        <p>#DENMARKVESTUARIO</p>
-        <div class="links">
-          <a href="#">Início</a>
-          <a href="#">Sobre Nós</a>
-          <a href="#">Trabalhe Conosco</a>
-          <a href="#">Atendimento ao Cliente</a>
-          <a href="#">Vale-Presente</a>
-        </div>
+      <div class="links">
+        <h3>COMPRAR</h3>
+        <a href="#">Homem</a>
+        <a href="#">Mulher</a>
+        <a href="#">Criança</a>
+        <a href="#">Ofertas</a>
       </div>
-      <div class="locations">
-        <h4>LOJAS FÍSICAS</h4>
-        <p>
-          <strong>São Paulo:</strong> Av. Paulista, 1000<br />
-          (11) 4002-8922
-        </p>
-        <p>
-          <strong>Rio de Janeiro:</strong> Rua Visconde de Pirajá, 500<br />
-          (21) 2506-7890
-        </p>
-        <p>
-          <strong>Minas Gerais:</strong> Av. Afonso Pena, 2000<br />
-          (31) 3201-4567
-        </p>
+      <div class="links">
+        <h3>SOBRE</h3>
+        <a href="#">Nossa História</a>
+        <a href="#">Trabalhe Conosco</a>
+        <a href="#">Sustentabilidade</a>
+      </div>
+      <div class="links">
+        <h3>ATENDIMENTO</h3>
+        <a href="#">Central de Ajuda</a>
+        <a href="#">Meus Pedidos</a>
+        <a href="#">Entregas</a>
+        <a href="#">Trocas e Devoluções</a>
+      </div>
+      <div class="links">
+        <h3>CONTATO</h3>
+        <a href="#">(11) 4002-8922</a>
+        <a href="#">contato@denmark.com.br</a>
+        <a href="#">Lojas Físicas</a>
       </div>
     </div>
-    <div class="footer-bottom" id="contact">
-      <p>© 2025 Denmark Vestuário Ltda. - 0800-555-1234</p>
-      <p>
-        <a href="#">Mapa do Site</a> • <a href="#">Termos de Uso</a> •
-        <a href="#">Política de Privacidade</a>
-      </p>
+    <div class="footer-bottom">
+      <p>&copy; 2023 Denmark. Todos os direitos reservados.</p>
     </div>
   </footer>
 
   <script src="js/script.js"></script>
 </body>
-
-</html>
+</html> bota esse html
